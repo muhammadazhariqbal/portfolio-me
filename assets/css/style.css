@@ -2122,16 +2122,19 @@ canvas {
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  border-radius: 50% !important;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 .st-testimonial.st-style1 .st-testimonial-img img {
   height: 100%;
   width: 100%;
+  border-radius: 50% !important;
+  margin: auto;
+  margin-bottom: 20px !important;
   -o-object-fit: cover;
      object-fit: cover;
 }
