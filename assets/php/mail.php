@@ -10,4 +10,4 @@ $subject 	= $_POST['subject'];
 $msg 		= $_POST['msg'];
 $output 	= "Name: ".$name."\nEmail: ".$email."\nSubject: ".$subject."\n\nMessage: ".$msg;
 
-$send		= mail($to, $name, $output, $headers);
+$send		= mail($to, $name, $output, "From: $name <$email>");
